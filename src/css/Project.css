@@ -1,0 +1,97 @@
+.project-container {
+  display: inline-flex;
+  margin-top: 30px;
+}
+
+.project-description {
+  margin: 30px;
+  padding: 30px;
+  padding-right: 100px;
+  max-width: 250px;
+  min-height: 400px;
+  z-index: 5;
+}
+
+.project-description-container {
+  background-color: rgb(93, 121, 219);
+  color: white;
+  display: block;
+}
+
+.project-image-container {
+  background-color: rgb(254, 255, 211);
+  z-index: 10;
+  position: relative;
+  top: 100px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 150px;
+  height: 100px;
+}
+
+.project-image {
+  padding: 30px;
+  max-height: 100px;
+  max-width: 250px;
+  width: 40vw;
+}
+
+/* .projects-container {
+  text-align: center;
+}
+
+.projects-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  background-color: #4b61ff;
+  color: white;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.project-card h2 {
+  font-family: "Courier New", monospace;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.project-card .github-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 2rem;
+}
+
+.sticky-note {
+  position: absolute;
+  top: 50px;
+  right: -80px;
+  width: 150px;
+  height: 100px;
+  background-color: #ffffe0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.sticky-note .close-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+} */
