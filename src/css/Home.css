@@ -12,7 +12,10 @@
   min-width: 300px;
   transition: margin 0.5s;
 }
-
+.home-section p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 @media screen and (min-width: 1200px) {
   .home-section {
     margin-right: 10vh;
@@ -54,7 +57,10 @@
 
 .cv-button {
   width: 20%;
-  border-radius: 10px;
+  margin-bottom: 70px;
+  margin-top: 20px;
+  min-width: 150px;
+  padding: 18px 10px;
   background-color: black;
   color: white;
 }
@@ -85,4 +91,9 @@
   .character {
     width: 30vw;
   }
+}
+
+.h2 {
+  margin-bottom: 7px;
+  font-family: karla;
 }

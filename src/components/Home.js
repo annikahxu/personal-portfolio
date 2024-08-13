@@ -15,9 +15,10 @@ export const Home = () => {
         {" "}
         <div className="home-section">
           {" "}
+          <h2 className="h2">ᶻ 𝗓 𐰁</h2>
           <h1>Hey, I’m Annika!</h1>{" "}
           <p>
-            I'm a software developer, artist, and avid ice cream enjoyer
+            I'm a software developer, artist, and avid sweet treat enjoyer
             studying Computer Science @ UWaterloo. Currently working at
             Blackberry QNX.
           </p>

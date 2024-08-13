@@ -1,13 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Press+Start+2P&display=swap");
 
 body {
   background-image: url("../public/assets/star_bg.png");
   background-repeat: no-repeat;
   background-size: auto 100vh;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
   /* background-attachment: fixed; Fixes the background image */
   margin: 0px;
   width: 100%;
@@ -22,7 +22,7 @@ body {
 
 /* -------------- text -------------- */
 * {
-  font-family: "Inter";
+  font-family: "Karla";
   font-size: 18px;
 }
 
@@ -72,10 +72,7 @@ h3 {
 
 button {
   border: none;
-  margin-bottom: 70px;
-  margin-top: 20px;
-  min-width: 150px;
-  padding: 18px 10px;
+  border-radius: 10px;
 }
 
 /* -------------- section css -------------- */
@@ -95,9 +92,9 @@ section {
   margin-right: 200px;
   margin-top: 70px;
   margin-bottom: 50px;
-  max-width: 600px;
+  max-width: 900px;
   min-height: 100vh;
-  min-width: 300px;
+  /* min-width: 300px; */
   transition: margin 0.5s;
 }
 
@@ -126,4 +123,8 @@ section {
     margin-left: 40px;
     margin-right: 40px;
   }
+}
+
+.shadow {
+  box-shadow: inset -3px -3px 10px rgba(0, 0, 0, 0.2);
 }

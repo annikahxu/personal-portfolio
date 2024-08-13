@@ -11,10 +11,22 @@ export const Projects = () => {
             <h2>Projects</h2>
             <Project
               name="Youwriter"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend congue nisl, ut aliquam velit lobortis vel. Sed ut consectetur ipsum."
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend congue nisl, ut aliquam velit lobortis vel. Sed ut consectetur ipsum. Sed ut consectetur ipsum, in ultricies enim. Cras laoreet quam at ex semper tristique."
+              marginL="0vw"
+              badges={["REACT", "OPENAI", "FLASK", "PYTHON", "MONGODB"]}
             />
-            <Project name="2" />
-            <Project name="3" />
+            <Project
+              name="Timeowt"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend congue nisl, ut aliquam velit lobortis vel. Sed ut consectetur ipsum. Sed ut consectetur ipsum, in ultricies enim. Cras laoreet quam at ex semper tristique."
+              marginL="0vw"
+              badges={["JAVASCRIPT", "CHROME API", "HTML", "CSS"]}
+            />
+            <Project
+              name="IngredientSafe"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend congue nisl, ut aliquam velit lobortis vel. Sed ut consectetur ipsum. Sed ut consectetur ipsum, in ultricies enim. Cras laoreet quam at ex semper tristique."
+              marginL="0vw"
+              badges={["PYTHON", "JAVASCRIPT", "HTML", "CSS"]}
+            />
           </div>
         </div>
       </section>

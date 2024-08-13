@@ -1,97 +1,223 @@
 .project-container {
   display: inline-flex;
-  margin-top: 30px;
+  margin-top: 50px;
+  align-items: center;
 }
 
 .project-description {
-  margin: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+  /* margin-right: 30px; */
   padding: 30px;
-  padding-right: 100px;
-  max-width: 250px;
-  min-height: 400px;
+  /* padding-right: 5vw; */
   z-index: 5;
+  max-width: 450px;
+  max-height: 400px;
+}
+
+.project-description .title {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 20px;
+  max-width: 30vw;
 }
 
 .project-description-container {
-  background-color: rgb(93, 121, 219);
+  background-color: #6981d5;
   color: white;
-  display: block;
+  border-radius: 10px;
+  width: 40vw;
+  min-height: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 8vw;
+}
+
+.project-description h3 {
+  font-size: 18px;
+}
+
+.project-description p {
+  font-size: 18px;
 }
 
 .project-image-container {
-  background-color: rgb(254, 255, 211);
-  z-index: 10;
-  position: relative;
-  top: 100px;
-  right: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  width: 150px;
-  height: 100px;
+  background-color: rgb(252, 253, 206);
+  border-radius: 10px;
+  margin-left: -50px;
+  padding: 25px;
+  max-width: 600px;
+  width: 35vw;
 }
 
-.project-image {
+.project-image-container .image {
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.project-image-container h3 {
+  text-align: right;
+}
+
+.project-description-container button {
+  background-color: none;
+  padding: 0px;
+}
+
+.github {
+  width: 32px;
+}
+
+.github:hover {
+  fill: rgb(62, 86, 223);
+}
+
+.badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  margin-bottom: 30px;
   padding: 30px;
-  max-height: 100px;
-  max-width: 250px;
-  width: 40vw;
 }
 
-/* .projects-container {
-  text-align: center;
-}
-
-.projects-title {
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.project-card {
-  position: relative;
-  width: 300px;
-  padding: 20px;
-  background-color: #4b61ff;
-  color: white;
-  border-radius: 15px;
-  margin: 0 auto;
-}
-
-.project-card h2 {
-  font-family: "Courier New", monospace;
-  font-size: 1.5rem;
+.badge {
+  padding: 10px;
+  margin-right: 10px;
   margin-bottom: 10px;
+  border-radius: 10px;
+  min-width: 50px;
+  background-color: rgb(62, 86, 223);
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  /* max-height: 40px; */
 }
 
-.project-card p {
-  font-size: 1rem;
-  line-height: 1.5;
+.badge p {
+  font-size: 12px;
 }
 
-.project-card .github-icon {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  font-size: 2rem;
+@media screen and (max-width: 976px) {
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-description-container {
+    width: 70vw;
+    min-height: 35vw;
+    display: flex;
+    flex-direction: column;
+    padding-right: 0px;
+  }
+
+  .project-description {
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 30px;
+    max-height: 400px;
+    max-width: 60vw;
+  }
+
+  .project-image-container {
+    margin-left: 0px;
+    margin-top: -30px;
+    max-width: 65vw;
+    padding: 30px;
+    width: 65vw;
+  }
 }
 
-.sticky-note {
-  position: absolute;
-  top: 50px;
-  right: -80px;
-  width: 150px;
-  height: 100px;
-  background-color: #ffffe0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+@media screen and (max-width: 560px) {
+  .project-image-container {
+    margin-left: 0px;
+    margin-top: -30px;
+    max-width: 65vw;
+    padding: 17px;
+    width: 65vw;
+  }
+
+  .project-description {
+    margin-top: 23px;
+    margin-left: 23px;
+    padding: 20px;
+    max-width: 60vw;
+  }
+
+  .project-description h3 {
+    font-size: 14px;
+  }
+
+  .project-description p {
+    font-size: 14px;
+  }
+
+  .badges {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 23px;
+    margin-bottom: 23px;
+    padding: 20px;
+  }
+
+  .badge {
+    padding: 10px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    min-width: 40px;
+    /* max-height: 40px; */
+  }
+
+  .badge p {
+    font-size: 9px;
+  }
+
+  .github {
+    width: 24px;
+  }
 }
 
-.sticky-note .close-btn {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  font-size: 1.2rem;
-  cursor: pointer;
-} */
+@media screen and (max-width: 430px) {
+  .project-image-container {
+    margin-left: 0px;
+    margin-top: -20px;
+    max-width: 65vw;
+    padding: 15px;
+    width: 65vw;
+  }
+
+  .project-description {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    max-width: 60vw;
+  }
+
+  .project-description h3 {
+    font-size: 10px;
+  }
+
+  .project-description p {
+    font-size: 10px;
+  }
+
+  .badges {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+
+  .badge {
+    padding: 6px;
+    min-width: 30px;
+  }
+
+  .badge p {
+    font-size: 7px;
+  }
+
+  .github {
+    width: 18px;
+  }
+}

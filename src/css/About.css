@@ -1,0 +1,10 @@
+.about-box {
+  display: flex;
+  background-color: rgb(252, 253, 206);
+  padding: 30px;
+  width: 70vw;
+}
+
+.about-blurb {
+  padding: 30px;
+}
