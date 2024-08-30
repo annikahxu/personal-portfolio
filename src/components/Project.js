@@ -1,7 +1,16 @@
 import React from "react";
 import "../css/Project.css";
 
-export const Project = ({ name, description, marginL, badges }) => {
+export const Project = ({
+  name,
+  subtitle,
+  description,
+  marginL,
+  badges,
+  github,
+  demoLink,
+  photo,
+}) => {
   return (
     <div className="project-component">
       <div className="project-container">
@@ -13,8 +22,9 @@ export const Project = ({ name, description, marginL, badges }) => {
             <div className="title">
               <h3> {name} </h3>
               <a
-                href="http://google.com"
+                href={github}
                 target="_blank"
+                rel="noreferrer"
                 style={{ marginLeft: "20px" }}
               >
                 <button>
@@ -32,6 +42,10 @@ export const Project = ({ name, description, marginL, badges }) => {
                 </button>
               </a>
             </div>
+            <p className="subtitle">
+              {" "}
+              {">"} {subtitle}{" "}
+            </p>
             <p> {description} </p>
           </div>
           <div className="badges">
@@ -44,12 +58,12 @@ export const Project = ({ name, description, marginL, badges }) => {
         </div>
         {/* <div className="project-image-container"> */}
         {/* <div className="project-image"> */}
-        {/* <a className=""> */}
-        <div className="project-image-container shadow">
-          <h3> - x </h3>
-          <img className="image" src="/assets/images.png"></img>
-        </div>
-        {/* </a> */}
+        <a href={demoLink} target="_blank" rel="noreferrer">
+          <div className="project-image-container shadow">
+            <h3> - x </h3>
+            <img className="image box-shadow" src={photo}></img>
+          </div>
+        </a>
 
         {/* </div> */}
         {/* </div> */}

@@ -11,11 +11,21 @@
   min-height: 100vh;
   min-width: 300px;
   transition: margin 0.5s;
+  color: black;
 }
 .home-section p {
   margin-top: 20px;
   margin-bottom: 10px;
+  font-size: 18px;
 }
+
+@media screen and (min-width: 1500px) {
+  .home-section {
+    margin-right: 10vh;
+    margin-left: 20vw;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .home-section {
     margin-right: 10vh;
@@ -37,9 +47,13 @@
     max-width: 75rem;
     box-sizing: border-box;
     padding: 10px;
-    margin-left: 50px;
+    margin-left: 55px;
     margin-right: 20px;
     min-width: 200px;
+  }
+
+  .home-section p {
+    font-size: 2.34vw;
   }
 }
 
@@ -53,9 +67,14 @@
     margin-right: 0px;
     min-width: 200px;
   }
+
+  .home-section p {
+    font-size: 12px;
+  }
 }
 
 .cv-button {
+  border-radius: 10px;
   width: 20%;
   margin-bottom: 70px;
   margin-top: 20px;
@@ -63,11 +82,13 @@
   padding: 18px 10px;
   background-color: black;
   color: white;
+  border: 1px solid #000000;
+  text-align: center;
 }
 
 .cv-button:hover {
   background-color: rgb(93, 121, 219);
-  color: white;
+  color: black;
 }
 
 .home-img-container {
@@ -80,6 +101,10 @@
   max-width: 400px;
   /* display: none; */
 }
+
+/* .character:hover {
+  transform: scale(1.02);
+} */
 
 @media screen and (max-width: 768px) {
   .character {

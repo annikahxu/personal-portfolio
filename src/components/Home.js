@@ -16,13 +16,10 @@ export const Home = () => {
         <div className="home-section">
           {" "}
           <h2 className="h2">ᶻ 𝗓 𐰁</h2>
-          <h1>Hey, I’m Annika!</h1>{" "}
-          <p>
-            I'm a software developer, artist, and avid sweet treat enjoyer
-            studying Computer Science @ UWaterloo. Currently working at
-            Blackberry QNX.
-          </p>
-          <button className="cv-button">CV</button>
+          <h1>Hey, I’m Annika!</h1> <p>2A Computer Science @ UWaterloo.</p>
+          <a href="/Resume.pdf" target="_blank" rel="noreferrer">
+            <div className="cv-button">CV</div>
+          </a>
         </div>{" "}
         <div className="home-img-container">
           <img

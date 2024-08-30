@@ -4,7 +4,8 @@
   top: 0px;
   z-index: 99;
   transition: top 0.3s;
-  background: rgba(255, 255, 255, 0.7);
+  background: #fdfdf4;
+  border-bottom: 1px dashed #000000;
 }
 .hidden {
   position: fixed;
@@ -29,6 +30,8 @@
 .navbar-items {
   margin: 20px 15px;
   padding: 15px;
+  justify-content: center;
+  display: flex;
 }
 
 .navbar-image {
