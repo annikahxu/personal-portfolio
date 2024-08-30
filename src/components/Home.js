@@ -17,9 +17,13 @@ export const Home = () => {
           {" "}
           <h2 className="h2">ᶻ 𝗓 𐰁</h2>
           <h1>Hey, I’m Annika!</h1> <p>2A Computer Science @ UWaterloo.</p>
-          <a href="/Resume.pdf" target="_blank" rel="noreferrer">
-            <div className="cv-button">CV</div>
-          </a>
+          <div
+            style={{ display: "flex", marginBottom: "70px", marginTop: "20px" }}
+          >
+            <a href="/Resume.pdf" target="_blank" rel="noreferrer">
+              <div className="cv-button">CV</div>
+            </a>
+          </div>
         </div>{" "}
         <div className="home-img-container">
           <img
