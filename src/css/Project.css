@@ -149,6 +149,10 @@
 }
 
 @media screen and (max-width: 560px) {
+  .project-description-container {
+    max-width: 80vw;
+  }
+
   .project-image-container {
     margin-left: 0px;
     margin-top: -30px;

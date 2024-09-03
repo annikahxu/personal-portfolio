@@ -42,7 +42,7 @@ export const Navbar = () => {
           <div className="navtext">
             {" "}
             <Link smooth to="about-component">
-              About
+              <p>About</p>
             </Link>
           </div>
           {/* <div className="navtext">
@@ -54,13 +54,13 @@ export const Navbar = () => {
           <div className="navtext">
             {" "}
             <Link smooth to="projects-component">
-              Projects
+              <p>Projects</p>
             </Link>{" "}
           </div>
           <div className="navtext">
             {" "}
             <Link smooth to="contact-component">
-              Contact
+              <p>Contact</p>
             </Link>{" "}
           </div>
           <div className="navtext">
@@ -81,10 +81,11 @@ export const Navbar = () => {
             </svg> */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                width="28"
-                height="28"
+                // x="0px"
+                // y="0px"
+                width="4vw"
+                style={{ maxWidth: "28px" }}
+                // height="28"
                 viewBox="0 0 32 32"
               >
                 <path
