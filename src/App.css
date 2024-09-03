@@ -59,7 +59,7 @@ p {
   }
 
   h2 {
-    font-size: 4.69vw;
+    font-size: 24px;
   }
 
   h3 {
@@ -81,6 +81,10 @@ p {
 @media screen and (max-width: 430px) {
   p {
     font-size: 14px;
+  }
+
+  h3 {
+    font-size: 20px;
   }
 }
 
