@@ -84,7 +84,7 @@ export const Navbar = () => {
                 // x="0px"
                 // y="0px"
                 width="4vw"
-                style={{ maxWidth: "28px" }}
+                style={{ maxWidth: "28px", minWidth: "20px" }}
                 // height="28"
                 viewBox="0 0 32 32"
               >
