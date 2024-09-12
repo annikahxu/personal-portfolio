@@ -21,7 +21,9 @@ export const Home = () => {
             style={{ display: "flex", marginBottom: "70px", marginTop: "20px" }}
           >
             <a href="/Resume.pdf" target="_blank" rel="noreferrer">
-              <div className="cv-button">CV</div>
+              <div className="cv-button">
+                <p>CV</p>
+              </div>
             </a>
           </div>
         </div>{" "}
